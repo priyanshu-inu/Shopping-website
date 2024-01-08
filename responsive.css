@@ -1,0 +1,307 @@
+/* for medium screen devices  */
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+  }
+
+  #navbar.active {
+    right: 0;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #for-mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #for-mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    position: absolute;
+    padding-left: 30px;
+    color: #222;
+    top: 30px;
+    display: initial;
+    font-size: 24px;
+  }
+
+  #shop-bag {
+    display: none;
+  }
+
+  #hero-section {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature-section {
+    justify-content: center;
+  }
+
+  #feature-section .feature-boxes {
+    margin: 15px 15px;
+  }
+
+  .section-padding {
+    padding: 40px 40px;
+  }
+
+  #products .product-container {
+    justify-content: center;
+  }
+
+  #products .product {
+    margin: 15px;
+  }
+
+  #single-banner {
+    height: 20vh;
+  }
+
+  #small-banner .banner-boxes {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner-row-3 {
+    /* margin: 10px; */
+    padding: 0 40px;
+  }
+
+  #banner-row-3 .banner-boxes {
+    width: 28%;
+  }
+
+  #news-letter .form {
+    width: 70%;
+  }
+
+  /* for contact page  */
+
+  /* contact form start  */
+
+  #from-fill {
+    padding: 40px;
+  }
+
+  #from-fill form {
+    width: 50%;
+  }
+
+  /* end  */
+}
+
+/* end  */
+
+/* for small type devices  */
+
+@media (max-width: 477px) {
+  #header {
+    padding: 10px 30px;
+  }
+
+  #hero-section {
+    background-position: 55%;
+    padding: 0 20px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .section-padding {
+    padding: 20px;
+  }
+
+  #feature-section .feature-boxes {
+    width: 150px;
+    margin: 0 0 15px 0;
+  }
+
+  #feature-section {
+    justify-content: space-between;
+  }
+
+  #products .product {
+    width: 100%;
+  }
+
+  #single-banner {
+    height: 35vh;
+  }
+
+  #small-banner .banner-boxes {
+    height: 40vh;
+  }
+
+  #small-banner .banner-box-2 {
+    margin-top: 20px;
+  }
+
+  #banner-row-3 {
+    /* margin: 10px; */
+    padding: 0 20px;
+  }
+
+  #banner-row-3 .banner-boxes {
+    width: 100%;
+  }
+
+  #news-letter .form {
+    width: 100%;
+  }
+
+  #news-letter {
+    padding: 40px 20px;
+  }
+
+  /* .copyrights {
+    text-align: start;
+    padding: 15px 10px;
+  } */
+
+  /* for singl shop product   */
+
+  /* start  */
+
+  #product-information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #product-information .single-product-image {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  #product-information .single-product-detail {
+    width: 100%;
+  }
+
+  /* end  */
+
+  /* for blog pages  */
+
+  /* start  */
+
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 90px;
+  }
+
+  #blog .blog-image {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-imformation {
+    width: 100%;
+  }
+  /* end  */
+
+  /* for about us page  */
+
+  /* start  */
+
+  #about-header {
+    flex-direction: column;
+  }
+
+  #about-header img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #about-header .intro {
+    padding-left: 0;
+  }
+
+  #about-video .video {
+    width: 100%;
+  }
+
+  /* end  */
+
+  /* for contact page  */
+
+  /* contact form start  */
+
+  #contact-info {
+    flex-direction: column;
+  }
+
+  #contact-info .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-info .map {
+    width: 100%;
+  }
+
+  #from-fill {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #from-fill form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* end  */
+
+  /* for card page  */
+
+  #payment-coupan {
+    flex-direction: column;
+  }
+
+  #coupan {
+    width: 100%;
+    /* padding-left: 50px; */
+  }
+
+  #coupan input {
+    width: 60%;
+  }
+
+  #total {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* end  */
+}
